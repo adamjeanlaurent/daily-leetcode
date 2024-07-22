@@ -4,7 +4,6 @@
     Time Took: 35 Minutes 
 
     Time Complexity: 
-    
         - addWord(): O(N)
         - search(): O(N)
 
@@ -32,10 +31,11 @@ class WordDictionary {
 
     addWord(word: string): void {
         let curPtr: TrieNode2 = this.trie;
+
         for (const letter of word) {
             if (!curPtr.children.has(letter))
                 curPtr.children.set(letter, new TrieNode2());
-            
+
             curPtr = curPtr.children.get(letter)!;
         }
 
@@ -46,7 +46,7 @@ class WordDictionary {
         return this.searchHelper(this.trie, word);
     }
 
-    searchHelper(node: TrieNode2, word: string) : boolean {
+    searchHelper(node: TrieNode2, word: string): boolean {
         let curPtr: TrieNode2 = node;
 
         for (let i = 0; i < word.length; i++) {
@@ -54,7 +54,7 @@ class WordDictionary {
 
             if (letter === '.') {
                 // fork
-                for (const childNode of curPtr.children.values()){
+                for (const childNode of curPtr.children.values()) {
                     if (this.searchHelper(childNode, word.substring(i)))
                         return true;
                 }
@@ -67,7 +67,7 @@ class WordDictionary {
 
             curPtr = curPtr.children.get(letter)!;
         }
-        
+
         return curPtr.isEnd;
-   }
+    }
 }

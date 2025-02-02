@@ -1,5 +1,5 @@
-/*
-    Link: https://leetcode.com/problems/number-of-islands/description/
+'''
+    Link: https://leetcode.com/problems/diameter-of-binary-tree/
 
     Time Took: 
 
@@ -7,5 +7,9 @@
 
     Space Complexity:
 
+    Date:
+
+    Problem Type:
+
     Solution Explained:
-*/
+'''

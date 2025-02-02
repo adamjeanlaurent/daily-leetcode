@@ -12,4 +12,6 @@
     Problem Type:
 
     Solution Explained:
+
+    Note:
 '''

@@ -10,7 +10,7 @@
 
     Date: 02-08-2025
 
-    Problem Type: binary search
+    Problem Type: binary-search
 
     Solution Explained: Okay soooo essentially, the goal is try find k. There isn't an exact forumla to get K, so you need to try Ks. You can be smart about it if you use binary search to determine K. you know that the largest possible K is the largest pile, and that the smallest K is always 1. so in the range 1....max(pile). binary search through there. 
     
@@ -58,7 +58,3 @@ class Solution:
                 maxK = mid - 1
                 
         return res
-
-
-
-

@@ -10,7 +10,7 @@
     
     Date: 02-02-2025
 
-    Problem Type: Stack
+    Problem Type: stack
 
     Solution Explained: Have a second stack for the minimum value at each point, you need this so that you can instanly know the current minimun, and keep the current minimum up to date on removals (espically) and insertions.
 

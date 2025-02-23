@@ -9,7 +9,7 @@
 
     Date: 02-02-2025
 
-    Problem Type: Graph
+    Problem Type: graph
 
     Solution Explained: Use BFS, loop through matrix, when you see land, start BFS. BFS will find all adjacent land, to avoid cycles. looks in all 4 directions to find adjacent land.
 
@@ -48,7 +48,7 @@ class Solution:
         while queue:
             row, col = queue.popleft()
 
-            for rowShift, colShift  in dirs:
+            for rowShift, colShift in dirs:
                 newRow, newCol = row + rowShift, col + colShift
 
                 if newCol >= 0 and newCol < self.cols and newRow >= 0 and newRow < self.rows:

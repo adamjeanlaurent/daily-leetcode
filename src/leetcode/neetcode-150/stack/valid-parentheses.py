@@ -9,7 +9,7 @@
     
     Date: 02-02-2025
 
-    Problem Type: Stack
+    Problem Type: stack
 
     Solution Explained: When you see an opening bracket push it on the stack, when you see a closeing bracket, pop from the stack and ensure the last opening matches the type.
 

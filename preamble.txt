@@ -1,5 +1,5 @@
 '''
-    Link: https://leetcode.com/problems/diameter-of-binary-tree/
+    Link: https://leetcode.com/problems/{problem}
 
     Time Took: 
 
@@ -7,9 +7,9 @@
 
     Space Complexity:
 
-    Date:
+    Date: {todays date}
 
-    Problem Type:
+    Problem Type: {problem type}
 
     Solution Explained:
 

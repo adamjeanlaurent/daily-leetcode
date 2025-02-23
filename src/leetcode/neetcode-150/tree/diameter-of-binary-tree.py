@@ -9,7 +9,7 @@
 
     Date: 02-02-2025
 
-    Problem Type: Tree
+    Problem Type: tree
 
     Solution Explained: Visit every node in the tree. At every node, to calculate the longest diameter running through the node, recurse left and right.
         The return value of the func should be the longest of left or right to support recursion, but use left and right in the func to check for deepest.

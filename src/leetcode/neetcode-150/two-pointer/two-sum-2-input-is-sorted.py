@@ -10,7 +10,7 @@
     
     Date: 02-08-2025
 
-    Problem Type: Two Pointer
+    Problem Type: two-pointer
 
     Solution Explained: Since array is sorted, you can do a one pass. have a left ptr at the beginning, right ptr at the end, and move move them forward and backward respectively seeing if you get your sum, if they cross then it's over.
 

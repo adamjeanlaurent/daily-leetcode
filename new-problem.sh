@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Define allowed problem types
 VALID_TYPES=(
     "array" "two-pointer" "sliding-window" "stack" "binary-search" "linked-list" \

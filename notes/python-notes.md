@@ -2,6 +2,53 @@
 
 ## Built-in Data Structures
 
+### Set
+```python
+    # init
+    s = set()
+
+    # add
+    s.add("thing")
+
+    # lookup
+    if "thing" in s:
+        print("thing in s")
+
+    # remove
+    s.remove("thing")
+```
+
+### Dict (Map)
+
+```python
+    
+    # init 
+    d = {}
+
+    # add
+    d["foo"] = "bar"
+
+    # add (only insert if key not already present)
+    d.setdefault("foo", "baz")
+
+    # does key exist in dict
+    if "foo" in d:
+        print("foo in d")
+    
+    # get value from dict (returns None if not found)
+    val = d.get("foo")
+    
+    # get value from dict, returns default val if not found
+    val = d.get("foo", "")
+
+    # get value from dict (throws error if not found)
+    val = d["foo"]
+
+
+    # remove
+    del d["foo"]
+```
+
 ### List
 
 ### Tuple

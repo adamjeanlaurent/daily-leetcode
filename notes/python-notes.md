@@ -94,6 +94,15 @@ Usage Max Heap:
 ### Enumerate 
 
 ### Iteration Loop
+```python
+    # loop from 0 to n 
+    for i in range(n):
+        print(i)
+
+    # loop from 0 to n (with custom start)
+    for i in range(0,n):
+        print(i)
+```
 
 ## Common Tricks / Operations
 

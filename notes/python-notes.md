@@ -50,8 +50,41 @@
 ```
 
 ### List
+```python
+    # shallow copy list
+    l = [1,2,3]
+    l_copy = l.copy()
+    
+    ## deep copy nested list (either list of objects or list of lists] 
+    import copy
+    l = [[1], [2]]
+    l_copy = copy.deepcopy(l)
+```
+
 
 ### Tuple
+```python
+    # declare tuple
+    t1 = (1,2)
+    t2 = (1,2,3)
+
+    # loop list of tuples
+    t = [
+        (0,1)
+        (1,0)
+    ]
+
+    for row, col in t:
+        print(row, col)
+
+    # use tuple as key in dict, or val in set (only works if vals are serializable)
+    t = (0,1)
+    seen.add(t)
+    
+    d = {}
+    d[t] = true
+
+```
 
 ### HeapQ
 

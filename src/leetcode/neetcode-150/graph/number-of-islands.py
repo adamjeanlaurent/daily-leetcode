@@ -16,14 +16,6 @@
     Notes: python while queue: will stop when queue is empty, use deque for a queue, has .append and .popleft, tuples are nice for dirs, since you can loop through easily.
 '''
 
-# soluton 1: bfs
-# loop through grid
-    # if spot is land
-        # bfs()
-            # visit all adjacent land
-            # turn visited land into water (assuming we can edit the input list) 
-        # numIslands++
-# return numIslands
 from collections import deque
 from typing import List
 

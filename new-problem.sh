@@ -53,7 +53,7 @@ fi
 TODAYS_DATE=$(date +"%m/%d/%Y")
 
 # Define file path
-FILE_PATH="./src/leetcode/neetcode-150/$PROBLEM_TYPE/$PROBLEM_NAME.py"
+FILE_PATH="./src/leetcode/questions/$PROBLEM_TYPE/$PROBLEM_NAME.py"
 
 # Create directories if they don't exist
 mkdir -p "$(dirname "$FILE_PATH")"

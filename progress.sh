@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the target directory
-TARGET_DIR="./src/leetcode/neetcode-150"
+TARGET_DIR="./src/leetcode/questions"
 
 # Check if the directory exists
 if [[ ! -d "$TARGET_DIR" ]]; then

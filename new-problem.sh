@@ -5,6 +5,7 @@
 VALID_TYPES=(
     "array" "two-pointer" "sliding-window" "stack" "binary-search" "linked-list" \
     "tree" "heap" "backtracking" "trie" "graph" "greedy" "1d-dynamic" "2d-dynamic"
+    "array"
 )
 
 # Function to display help

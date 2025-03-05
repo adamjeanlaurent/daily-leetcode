@@ -118,7 +118,17 @@ Usage Max Heap:
     largest = -heapq.heappop(maxHeap) # 3
     ```
 
-### Deque
+### Deque (Queue)
+```python
+    # init 
+    queue = deque()
+
+    # insert
+    queue.push(1)
+
+    # pop
+    thing = queue.popleft()
+```
 
 ## Loops
 

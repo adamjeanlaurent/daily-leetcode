@@ -53,6 +53,3 @@ class Solution:
 
         self.maxDepthHelper(root.left, currentDepth + 1)
         self.maxDepthHelper(root.right, currentDepth + 1)
-
-s = Solution()
-s.maxDepth(TreeNode(None, None, None))

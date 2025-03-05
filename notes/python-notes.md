@@ -133,8 +133,22 @@ Usage Max Heap:
 ## Loops
 
 ### Range Loop
+```python
+    my_list = [1,2,3,4,5]
+
+    for num in range(my_list):
+        print(num)
+
+```
 
 ### Enumerate 
+```python
+    my_list = [1,2,3,4,5]
+
+    for i, num in enumerate(my_list):
+        print(i, num)
+
+```
 
 ### Iteration Loop
 ```python

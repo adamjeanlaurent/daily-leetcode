@@ -44,9 +44,20 @@
     # get value from dict (throws error if not found)
     val = d["foo"]
 
-
     # remove
     del d["foo"]
+
+    # loop through dict keys and items
+    for key, value in d.items():
+        print(key, value)
+
+    # loop through dict keys 
+    for key in d:
+        print(key)
+
+    # loop through dict values 
+    for value in d.values():
+        print(value)
 ```
 
 ### List
@@ -162,6 +173,17 @@ Usage Max Heap:
 ```
 
 ## Common Tricks / Operations
+
+### Get Max Values from list and dict
+```python
+# max value from list
+l = [1,2,3,4,5]
+m = max(l)
+
+# max value from dict
+d = {'x': 2, 'y': 10}
+m = max(d.values())
+```
 
 ### Get Cardinal Directions Neighbours in Matrix
 
